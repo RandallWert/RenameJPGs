@@ -16,7 +16,6 @@ while keepGoing:
     root = Tk()
     root.update()
     filenameList = filedialog.askopenfilename(multiple=True)
-    print(len(filenameList))
     root.destroy()
 
     for filename in filenameList:
